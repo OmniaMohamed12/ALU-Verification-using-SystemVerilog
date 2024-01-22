@@ -1,0 +1,12 @@
+Design Hierarchy
+
+
+----------------
+SCORE  LINE   TOGGLE BRANCH    
+ 89.85  96.61  98.57  74.36 tb 
+  
+  ----------------
+  SCORE  LINE   TOGGLE BRANCH     
+   89.64  96.00  98.57  74.36 dut 
+   98.57 --      98.57 --     ifc 
+

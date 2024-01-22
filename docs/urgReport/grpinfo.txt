@@ -1,0 +1,322 @@
+Group : $unit::alu_coverage::cg
+
+===============================================================================
+Group : $unit::alu_coverage::cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 99.38 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ICer/omnia/iti/FINAL_ALU_PROJECT/alu_coverage.svh
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::alu_coverage::cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 82       4         78      99.22   
+Crosses   16       0         16      100.00  
+
+
+Variables for Group  $unit::alu_coverage::cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+opa      4        0         4       100.00  100  1      1        4                    
+en_a     2        0         2       100.00  100  1      1        2                    
+opb      4        0         4       100.00  100  1      1        4                    
+en_b     2        0         2       100.00  100  1      1        2                    
+irq      2        0         2       100.00  100  1      1        2                    
+clr      2        0         2       100.00  100  1      1        2                    
+rst      2        0         2       100.00  100  1      1        2                    
+out      64       4         60      93.75   100  1      1        64                   
+
+
+Crosses for Group  $unit::alu_coverage::cg
+
+
+CROSS   EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+cg_cc   8        0         8       100.00  100  1      1        0                     
+cg_cc_0 8        0         8       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable opa
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 4        0         4       100.00  
+
+
+Automatically Generated Bins for opa
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 397   1        
+auto[1] 372   1        
+auto[2] 394   1        
+auto[3] 337   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable en_a
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for en_a
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 781   1        
+auto[1] 719   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable opb
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 4        0         4       100.00  
+
+
+Automatically Generated Bins for opb
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 390   1        
+auto[1] 376   1        
+auto[2] 367   1        
+auto[3] 367   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable en_b
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for en_b
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 720   1        
+auto[1] 780   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable irq
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for irq
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 644   1        
+auto[1] 856   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable clr
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for clr
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 324   1        
+auto[1] 1176  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable rst
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for rst
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 1     1        
+auto[1] 1499  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable out
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 64       4         60      93.75   
+
+
+Automatically Generated Bins for out
+
+
+Uncovered bins
+
+NAME                       COUNT AT LEAST NUMBER 
+[auto[8:11] - auto[12:15]] --    --       2      
+[auto[24:27]]              0     1        1      
+[auto[104:107]]            0     1        1      
+
+
+Covered bins
+
+NAME          COUNT AT LEAST 
+auto[0:3]     10    1        
+auto[4:7]     7     1        
+auto[16:19]   5     1        
+auto[20:23]   18    1        
+auto[28:31]   3     1        
+auto[32:35]   3     1        
+auto[36:39]   2     1        
+auto[40:43]   1     1        
+auto[44:47]   1     1        
+auto[48:51]   6     1        
+auto[52:55]   15    1        
+auto[56:59]   5     1        
+auto[60:63]   12    1        
+auto[64:67]   5     1        
+auto[68:71]   9     1        
+auto[72:75]   2     1        
+auto[76:79]   5     1        
+auto[80:83]   6     1        
+auto[84:87]   9     1        
+auto[88:91]   3     1        
+auto[92:95]   8     1        
+auto[96:99]   6     1        
+auto[100:103] 7     1        
+auto[108:111] 10    1        
+auto[112:115] 14    1        
+auto[116:119] 15    1        
+auto[120:123] 9     1        
+auto[124:127] 21    1        
+auto[128:131] 157   1        
+auto[132:135] 8     1        
+auto[136:139] 2     1        
+auto[140:143] 3     1        
+auto[144:147] 9     1        
+auto[148:151] 18    1        
+auto[152:155] 2     1        
+auto[156:159] 10    1        
+auto[160:163] 7     1        
+auto[164:167] 5     1        
+auto[168:171] 9     1        
+auto[172:175] 7     1        
+auto[176:179] 8     1        
+auto[180:183] 17    1        
+auto[184:187] 7     1        
+auto[188:191] 24    1        
+auto[192:195] 6     1        
+auto[196:199] 6     1        
+auto[200:203] 1     1        
+auto[204:207] 5     1        
+auto[208:211] 10    1        
+auto[212:215] 23    1        
+auto[216:219] 2     1        
+auto[220:223] 16    1        
+auto[224:227] 8     1        
+auto[228:231] 7     1        
+auto[232:235] 4     1        
+auto[236:239] 23    1        
+auto[240:243] 199   1        
+auto[244:247] 211   1        
+auto[248:251] 218   1        
+auto[252:255] 251   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross cg_cc
+
+
+Samples crossed: opa en_a
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 8        0         8       100.00          
+
+
+Automatically Generated Cross Bins for cg_cc
+
+
+Bins
+
+opa     en_a    COUNT AT LEAST 
+auto[0] auto[0] 201   1        
+auto[0] auto[1] 196   1        
+auto[1] auto[0] 210   1        
+auto[1] auto[1] 162   1        
+auto[2] auto[0] 187   1        
+auto[2] auto[1] 207   1        
+auto[3] auto[0] 183   1        
+auto[3] auto[1] 154   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross cg_cc_0
+
+
+Samples crossed: opb en_b
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 8        0         8       100.00          
+
+
+Automatically Generated Cross Bins for cg_cc_0
+
+
+Bins
+
+opb     en_b    COUNT AT LEAST 
+auto[0] auto[0] 200   1        
+auto[0] auto[1] 190   1        
+auto[1] auto[0] 177   1        
+auto[1] auto[1] 199   1        
+auto[2] auto[0] 181   1        
+auto[2] auto[1] 186   1        
+auto[3] auto[0] 162   1        
+auto[3] auto[1] 205   1        
+
+

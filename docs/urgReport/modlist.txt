@@ -1,0 +1,14 @@
+Design Module List
+
+Total Module Definition Coverage Summary 
+SCORE  LINE   TOGGLE BRANCH 
+ 89.85  96.61  98.57  74.36 
+
+
+Total modules in report: 3
+-------------------------------------------------------------------------------
+SCORE  LINE   TOGGLE BRANCH NAME    
+ 89.64  96.00  98.57  74.36 alu     
+ 98.57 --      98.57 --     alu_ifc 
+100.00 100.00 --     --     tb      
+
